@@ -1,0 +1,11 @@
+#mybatis
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mybatis
+    username: root
+    password: svse
+    driver-class-name: com.mysql.jdbc.Driver
+#配置文件地址
+mybatis:
+  type-aliases-package: com.example.ssm.entity
+  mapper-locations: classpath:com.example.ssm.dao.mapper/**/*.xml
